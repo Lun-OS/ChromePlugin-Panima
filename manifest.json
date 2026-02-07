@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "爬逆马",
+  "version": "1.0.2",
+  "description": "监控爬取页面js等资源与流量，保存为本地zip用于逆向分析                      By:Lun.",
+  "permissions": ["debugger", "downloads", "storage", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "爬逆马",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

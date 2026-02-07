@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>爬逆马</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">爬逆马</div>
+      <div class="section">
+        <label><input type="checkbox" id="opt-js" checked />JS</label>
+        <label><input type="checkbox" id="opt-css" checked />CSS</label>
+        <label><input type="checkbox" id="opt-html" checked />HTML</label>
+        <label><input type="checkbox" id="opt-image" checked />图片</label>
+        <label><input type="checkbox" id="opt-video" checked />视频</label>
+        <label><input type="checkbox" id="opt-packets" checked />流量数据包</label>
+        <label><input type="checkbox" id="opt-other" />其他</label>
+      </div>
+      <div class="actions">
+        <button id="start">开始爬取</button>
+        <button id="stop" disabled>停止并保存</button>
+      </div>
+      <div class="status" id="status">空闲</div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
